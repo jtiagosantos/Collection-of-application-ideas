@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Number Converter</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script defer src="./scripts.js"></script>
+
+        <script src="dist/sweetalert-dev.js"></script>
+        <link rel="stylesheet" href="dist/sweetalert.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="content-wrapper">
+            <h1 class="title">Number Converter</h1>
+            <form class="form-wrapper">
+                <div class="enter-form">
+                    <input class="input" type="text" maxlength=8 placeholder="Enter a binary number">
+                    <button class="button-submit" type="button">convert</button>
+                </div>
+
+                <div class="output-form">
+                    <input class="output" type="text" placeholder="Output" readonly>
+                    <button class="button-reset" type="reset">clear</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
