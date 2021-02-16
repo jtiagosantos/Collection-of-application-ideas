@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*CONFIGURAÇÕES DO FLEX*/
+/*CONFIGURAÇÕES DO BODY*/
+/*COLORS*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Trebuchet MS", Helvetica;
+  background: linear-gradient(253.91deg, rgba(243, 130, 239, 0.96) 48.67%, rgba(255, 255, 255, 0) 87.74%), rgba(139, 231, 231, 0.84);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left-area {
+  height: 100vh;
+  width: 50%;
+  padding: 80px 0 0 150px;
+}
+
+.left-area .ranges-wrapper {
+  margin-bottom: 50px;
+}
+
+.left-area .ranges-wrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.left-area .ranges-wrapper div span {
+  font-size: 70px;
+  line-height: 80px;
+  color: #E7098E;
+  padding-right: 20px;
+}
+
+.left-area .ranges-wrapper div input {
+  all: unset;
+  /* limpa os estilos iniciais */
+  -webkit-appearance: none;
+  /* remove a aparencia padão */
+  border: none;
+  background: #E7098E;
+  height: 3px;
+  width: 337px;
+}
+
+.left-area .ranges-wrapper div input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: purple;
+  cursor: pointer;
+}
+
+.left-area .copy-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 400px;
+}
+
+.left-area .copy-area input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.left-area .copy-area button {
+  width: 120px;
+  height: 40px;
+  background: #660A6F;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+}
+
+.right-area {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.right-area .square-down {
+  width: 510px;
+  height: 510px;
+  border: 5px dashed #000000;
+}
+
+.right-area .square-down .square-up {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(253.91deg, purple, #bb1ebb);
+}
+
+.right-area h1 {
+  font-size: 60px;
+  color: #E7098E;
+  position: absolute;
+}
+
+.right-area .letter-A, .right-area .letter-B {
+  top: 0;
+}
+
+.right-area .letter-A {
+  left: -40px;
+}
+
+.right-area .letter-B {
+  right: 140px;
+}
+
+.right-area .letter-C, .right-area .letter-D {
+  bottom: 0;
+}
+
+.right-area .letter-C {
+  left: -35px;
+}
+
+.right-area .letter-D {
+  right: 135px;
+}
+/*# sourceMappingURL=styles.css.map */

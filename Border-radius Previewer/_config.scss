@@ -1,0 +1,23 @@
+@mixin resetDefault() {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CONFIGURAÇÕES DO FLEX*/
+@mixin ConfigFlex($type, $direction, $align, $justify) {
+    display: $type;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+/*CONFIGURAÇÕES DO BODY*/
+@mixin configBody() {
+    width: 100vw;
+    height: 100vh;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Trebuchet MS", Helvetica;
+    background: linear-gradient(253.91deg, rgba(243, 130, 239, 0.96) 48.67%, rgba(255, 255, 255, 0) 87.74%), rgba(139, 231, 231, 0.84);
+}
