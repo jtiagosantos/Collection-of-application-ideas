@@ -1,0 +1,23 @@
+@mixin resetDefault() {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin sizeBody {
+    width: 100vw;
+    height: 100vh;
+}
+
+/*COLORS*/
+$color1: rgb(73, 97, 238);
+$color2: rgb(248, 69, 69);
+$color3: rgb(69, 189, 69);
+$color4: rgb(240, 240, 73);
+$color5: rgb(211, 84, 45);
+$color6: rgb(180, 43, 180);
+$color7: rgb(185, 180, 180);
+$color8: rgb(82, 76, 76);
+$color9: rgb(71, 211, 211);
+$color10: rgb(241, 95, 120);
+$color11: rgb(132, 70, 190);

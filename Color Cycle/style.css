@@ -1,0 +1,87 @@
+/*COLORS*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  -webkit-animation: colorCycle 2.5s infinite linear;
+          animation: colorCycle 2.5s infinite linear;
+}
+
+@-webkit-keyframes colorCycle {
+  0% {
+    background: #4961ee;
+  }
+  10% {
+    background: #f84545;
+  }
+  20% {
+    background: #45bd45;
+  }
+  30% {
+    background: #f0f049;
+  }
+  40% {
+    background: #d3542d;
+  }
+  50% {
+    background: #b42bb4;
+  }
+  60% {
+    background: #b9b4b4;
+  }
+  70% {
+    background: #524c4c;
+  }
+  80% {
+    background: #47d3d3;
+  }
+  90% {
+    background: #f15f78;
+  }
+  100% {
+    background: #8446be;
+  }
+}
+
+@keyframes colorCycle {
+  0% {
+    background: #4961ee;
+  }
+  10% {
+    background: #f84545;
+  }
+  20% {
+    background: #45bd45;
+  }
+  30% {
+    background: #f0f049;
+  }
+  40% {
+    background: #d3542d;
+  }
+  50% {
+    background: #b42bb4;
+  }
+  60% {
+    background: #b9b4b4;
+  }
+  70% {
+    background: #524c4c;
+  }
+  80% {
+    background: #47d3d3;
+  }
+  90% {
+    background: #f15f78;
+  }
+  100% {
+    background: #8446be;
+  }
+}
+/*# sourceMappingURL=style.css.map */

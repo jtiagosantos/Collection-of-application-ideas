@@ -14,7 +14,7 @@ body {
     height: 100vh;
     align-items: flex-start;
     background: color;
-    font-family: Righteous;
+    font-family: Righteous, Helvetica;
     font-style: normal;
     font-weight: normal;
     background: #C4C4C4;
@@ -58,7 +58,6 @@ body {
     color: #FFFFFF;
     font-size: 30px;
     outline: none;
-    font-family: Righteous;
     text-transform: uppercase;
 }
 

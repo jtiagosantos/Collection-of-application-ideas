@@ -1,0 +1,22 @@
+@import '_variables.scss';
+
+* {@include resetDefault();}
+
+body {
+    @include sizeBody();
+    animation: colorCycle 2.5s infinite linear;
+}
+
+@keyframes colorCycle {
+    0% {background: $color1;}
+    10% {background: $color2;}
+    20% {background: $color3;}
+    30% {background: $color4;}
+    40% {background: $color5;}
+    50% {background: $color6;}
+    60% {background: $color7;}
+    70% {background: $color8;}
+    80% {background: $color9;}
+    90% {background: $color10;}
+    100% {background: $color11;}
+}
